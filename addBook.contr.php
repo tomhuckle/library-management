@@ -2,7 +2,7 @@
 
 session_start();
 
-// CHECK FORM IS POSTED
+// CHECK FORM POSTED
 if (isset($_POST["submit"])) {
 
   echo 'The form was submitted!';
